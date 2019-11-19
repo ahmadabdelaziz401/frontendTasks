@@ -2,7 +2,12 @@
     margin: 0px;
     padding: 0px;
 }
-
+figure{
+  height: 500px;
+  background-size: cover;
+  background-position: center;
+  background-image: url("https://en.tignes.net/uploads/media/page_block/0001/64/eead58cf6ce5b04a8aafe6423aaf2099146d5da9.jpeg")
+}
 .img-css {
     width: 60px;
     height: 60px;
