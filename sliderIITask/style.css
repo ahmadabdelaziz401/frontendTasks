@@ -1,0 +1,51 @@
+*{
+    box-sizing: border-box;
+}
+.slider-container{
+    position: relative;
+    width: 80%;
+    margin: auto;
+    overflow: hidden;
+    height: 300px;
+}
+.image{
+    height: 300px;
+    position: absolute;
+    display: inline-block;
+    width: 100%;
+    z-index: 3;
+    background-size: cover;
+}
+#prev{
+    transform: translateX(-100%);
+}
+#next{
+    transform: translateX(100%);
+}
+.button{
+    cursor: pointer;
+    color: white;
+    font-size: 30px;
+    z-index: 10;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.next{
+    right: 0;
+}
+#images{
+    position: relative;
+    transform: translateX(0);
+}
+.transition{
+    transition: all 0.3s;
+}
+.prevMove{
+    transform: translateX(100%) !important;
+}
+.next-move{
+    transform: translateX(-100%) !important;
+}
+
+

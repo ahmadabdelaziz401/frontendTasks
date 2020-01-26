@@ -1,0 +1,271 @@
+body{
+    font-family: 'Lato', Calibri, Arial, sans-serif;
+}
+.btnHead{
+    text-align: center;
+}
+.divPos{
+    height: 200px;
+    background-color: #0e83cd;
+    text-align: center;
+}
+.btnPos{
+    display: block;
+    text-align: center;
+}
+
+.firstThree{
+    padding: 1.5%;
+}
+.secndThree{
+    padding: 2%;
+}
+
+/* -------------- BTN 1 -------------------- */
+
+.btn1{
+    position: relative;
+    cursor: pointer;
+    width:120px;
+    height: 60px;
+    color: white;
+    border: 3px solid white;
+    background-color: #0e83cd;
+    transition-duration: 0.4s;
+    font-weight: bold;
+    margin-right: 5%;
+}
+.btn1:hover{
+    background-color: white;
+    color: #0e83cd;
+}
+
+/* -------------- BTNS -------------------- */
+
+.button{
+    position: relative;
+    cursor: pointer;
+    width:120px;
+    height: 60px;
+    border: 3px solid white;
+    background-color: #0e83cd;
+    color:white;
+    font-weight: bold;
+    margin-right: 5%;
+    z-index: 1;
+}
+
+.button:hover{
+    color: #0e83cd;
+}
+
+.button::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    z-index: -1;
+    transition: transform 200ms ease-in;
+}
+
+/* -------------- BTN 2 -------------------- */
+
+.btn2::after{
+    transform:scaleX(0);
+    transform-origin: left;
+}
+
+.btn2:hover::after{
+    transform: scaleX(1);
+}
+
+/* -------------- BTN 3 -------------------- */
+
+.btn3::after{
+    transform:scaleX(0);
+    transform-origin: center;
+}
+
+.btn3:hover::after{
+    transform: scaleX(0.8);
+}
+
+/* -------------- BTN 4 -------------------- */
+
+.btn4::after{
+    transform:scaleY(0);
+    transform-origin: top;
+}
+
+.btn4:hover::after{
+    transform: scaleY(1);
+}
+
+/* --------------------- BTN 5 ---------------------- */
+
+.btn5::after{
+    transform:scaleY(0);
+    transform-origin: center;
+}
+
+.btn5:hover::after{
+    transform: scaleY(0.7);
+}
+
+/* --------------------- BTN 6  translateX(-50%) translateY(-50%) ---------------------- */
+/* .btn6{
+    position: relative;
+    cursor: pointer;
+    width:120px;
+    height: 60px;
+    border: 3px solid white;
+    background-color: #0e83cd;
+    color:white;
+    font-weight: bold;
+    margin-right: 5%;
+    z-index: 1;
+}
+
+.button:hover{
+    color: #0e83cd;
+}
+
+.btn6::after{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform: rotate(-45deg);
+    /* z-index: 2; */
+    /* transition: transform 200ms ease-in;
+}
+
+.btn6:hover{
+    color: #0e83cd;
+}
+
+.btn6:hover::after{
+    transform: rotate(45deg);
+} */
+
+/* .btn6::before{
+    content: "";
+    position: absolute;
+    top:0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    transform: scale(0,0) rotate(45deg);
+    z-index: -1;
+    transition: transform 200ms ease-in;
+}
+
+.btn6:hover::before{
+    transform: scale(.7,1);
+} */
+
+/* .btn3{
+    width:120px;
+    height: 60px;
+    color: white;
+    border: 3px solid #fff;
+    background-color: #0e83cd;
+    transition-duration: 0.4s;
+    margin-left: 5%;
+}
+.btn3:hover{
+    background-color: white;
+    color: #0e83cd;
+} */
+
+/* -------------- BTN 4 -------------------- */
+/* 
+.btn4{
+    width:120px;
+    height: 60px;
+    color: white;
+    border: 3px solid #fff;
+    background-color: #0e83cd;
+    transition-duration: 0.4s;
+}
+.btn4:hover{
+    background-color: white;
+    color: #0e83cd;
+} */
+
+/* -------------- BTN 5 -------------------- */
+
+/* .btn5{
+    width:120px;
+    height: 60px;
+    color: white;
+    border: 3px solid #fff;
+    background-color: #0e83cd;
+    transition-duration: 0.4s;
+    margin-left: 5%;
+}
+.btn5:hover{
+    background-color: white;
+    color: #0e83cd;
+} */
+
+
+/* -------------- BTN 6 -------------------- */
+/* .btn6{
+    position: relative;
+    width:120px;
+    height: 60px;
+    color: white;
+    border: 3px solid #fff;
+    background-color: #0e83cd;
+    margin-left: 5%;
+    transition: background ease-in 250ms;
+}
+
+.btn6:hover{
+    
+    color: #0e83cd;
+}
+
+.btn6::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    background-color: white;
+    color: #0e83cd;
+    transform: scale(0,1);
+    transition: transform ease-in 250ms;
+   
+}
+
+.btn6:hover::before {
+    color: #0e83cd;
+    transform: scale(1,1);
+    
+} */
+/* .btn6::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: scale(1,0);
+    transition: transform ease-in 250ms;
+    
+
+}
+.btn6:hover::after {
+    transform: scale(1,1);
+} */
