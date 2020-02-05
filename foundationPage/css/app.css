@@ -84,10 +84,14 @@ a {
 }
 
 .itemBranch {
-    padding:4px 0px 0px 25px;
+    padding:4px 0px 0px 30px;
     font: 16px ;
     margin: 0px 39.03px 0px 0px;
     transform: translateY(25%);
+}
+
+.itemBranch:hover .dot-container{
+    display: block;
 }
 
 .slider-container {
@@ -135,16 +139,29 @@ a {
 .foot-image{
     width: 180px;
     height: 105.88px;
+    margin-bottom: 20px;
 }
 
 .foot-sec-two{
-    font: 16px;
+    font: 12px;
     color: white;
 }
 
+.but{
+    text-align: center;
+}
+
 .button { 
+    padding: 0px;
+    display: block;
+    cursor: pointer;
+    text-align: center;
     color: white;
     background-color:#4b595f !important;
+    font-size: 13px;
+    height: 30px;
+    width: 121px;
+    margin-bottom: 20px;
 }
 
 .foot-pics{
@@ -154,9 +171,14 @@ a {
     margin-right: 2px;
 }
 
+.follow{
+    margin-bottom: 10px;
+}
+
 .icon {
     display: inline-block;
-    width: 20px;
+    width: 30px;
+    margin-left: 5px;
     margin-bottom: 5px;
 }
 

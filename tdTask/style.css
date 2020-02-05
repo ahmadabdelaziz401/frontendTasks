@@ -1,0 +1,211 @@
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: black;
+    position: relative;
+}
+
+section {
+    background: black;
+    color: white;
+    /* border-radius: 1em;
+    padding: 1em; */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    bottom: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%) }
+
+.container-3 {
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+.title{
+    /* overflow: hidden;
+    text-overflow: ellipsis; */
+}
+
+.container-3-box {
+    background-size: cover;
+    background-position: center;
+    background-image: url("image.png");
+    flex: 1 1 21%;
+    margin: 2px;
+    box-shadow: 0px 0px 100px 10px black inset;
+}
+
+.container-3-box h1 {
+    max-width: 300px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ffffff;
+    margin-top: 55%;
+    margin-left: 1%;
+    font-size: 23px;
+}
+
+.container-3-box p {
+    /* margin-top: 70%; */
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 12px;
+}
+
+.container-3-box-1 {
+    background-size: cover;
+    background-position: center;
+    background-image: url("image2.png");
+    flex: 1 1 21%;
+    margin: 2px;
+    box-shadow: 0px 0px 100px 10px black inset;
+}
+
+.container-3-box-1 h1 {
+    color: #ffffff;
+    margin-top: 55%;
+    margin-left: 1%;
+    font-size: 23px;
+}
+
+.container-3-box-1 p {
+    /* margin-top: 70%; */
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 12px;
+}
+
+.container-3-box-2 {
+    background-size: cover;
+    background-position: center;
+    background-image: url("image3.png");
+    flex: 1 1 21%;
+    margin: 2px;
+    box-shadow: 0px 0px 100px 10px black inset;
+}
+
+.container-3-box-2 h1 {
+    color: #ffffff;
+    margin-top: 55%;
+    margin-left: 1%;
+    font-size: 23px;
+}
+
+.container-3-box-2 p {
+    /* margin-top: 70%; */
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 12px;
+}
+
+.container-3-box-3 {
+    background-size: cover;
+    background-position: center;
+    background-image: url("image4.png");
+    flex: 1 1 21%;
+    margin: 2px;
+    box-shadow: 0px 0px 100px 10px black inset;
+}
+
+.container-3-box-3 h1 {
+    color: #ffffff;
+    margin-top: 55%;
+    margin-left: 1%;
+    font-size: 23px;
+}
+
+.container-3-box-3 p {
+    /* margin-top: 70%; */
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 12px;
+}
+
+.container-3-box-4 {
+    background-size: cover;
+    background-position: center;
+    background-image: url("image5.png");
+    flex: 1 1 21%;
+    margin: 2px;
+    box-shadow: 0px 0px 100px 10px black inset;
+}
+
+.container-3-box-4 h1 {
+    color: #ffffff;
+    margin-top: 55%;
+    margin-left: 1%;
+    font-size: 23px;
+}
+
+.container-3-box-4 p {
+    /* margin-top: 70%; */
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 12px;
+}
+
+.container-3-box-5 {
+    background-size: cover;
+    background-position: center;
+    background-image: url("image6.png");
+    flex: 1 1 21%;
+    margin: 2px;
+    box-shadow: 0px 0px 100px 10px black inset;
+}
+
+.container-3-box-5 h1 {
+    color: #ffffff;
+    margin-top: 55%;
+    margin-left: 1%;
+    font-size: 23px;
+}
+
+.container-3-box-5 p {
+    /* margin-top: 70%; */
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 12px;
+}
+
+.container-3-box-6 {
+    background-size: cover;
+    background-position: center;
+    background-image: url("image7.png");
+    flex: 1 1 21%;
+    margin: 2px;
+    box-shadow: 0px 0px 100px 10px black inset;
+}
+
+.container-3-box-6 h1 {
+    max-width: 350px;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: #ffffff;
+    margin-top: 55%;
+    margin-left: 1%;
+    font-size: 23px;
+}
+
+.container-3-box-6 p {
+    color: #ffffff;
+    margin-left: 1%;
+    font-size: 12px;
+}
+
+.container-3-box img {
+    /* max-width: 100%; */
+    max-height: 300px;
+    object-fit: contain;
+}
+
+.container-3-box .card-title{
+    color: #484848;
+    font-size: 12px;
+    text-align: left;
+    background-color: transparent;
+}
